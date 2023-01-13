@@ -23,6 +23,14 @@ STATIC_DIR = os.path.join(BASE_DIR, 'static')
 #This also refers to where the static files are stored
 STATICFILES_DIRS = [STATIC_DIR,]
 
+#file path to store media files and obtain them
+MEDIA_DIR = os.path.join(BASE_DIR, 'media')
+
+#This tells django where to look for media files uploaded by users
+#And what the URL should be e.g. https://localhost:8000/media/ user media file
+MEDIA_ROOT = MEDIA_DIR
+MEDIA_URL = '/media/'
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -71,6 +79,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
             ],
         },
     },
