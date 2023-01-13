@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<!--This tag infroms djangos template engine that we will use static files within the template -->
+{% load staticfiles %}
+
+
+<html>
+
+	<head>
+		<title>Rango</title>
+	</head>
+	
+	<body>
+		
+		<h1>Rango says...</h1>
+		<div>
+			here is the about page. <br />
+			<strong>This tutorial has been put together by Hussain ALFAYLY</strong><br />
+		</div>
+		<div>
+			<a href="/rango">Index</a><br />
+			<img src="{% static 'images/rango.jpg' %}"
+			alt="Picture of Rango" />
+			
+			<br /> <br />
+			
+			<img src="{{ MEDIA_URL }}cat.jpg"
+			alt="Picture of a Cat. " />
+		</div>
+	
+	</body>
+
+</html>
