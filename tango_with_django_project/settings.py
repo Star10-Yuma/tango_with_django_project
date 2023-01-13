@@ -15,6 +15,13 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+#This joins the directory path to templates so that the templates folder can be accessed in any computer not just this one
+TEMPLATE_DIR = os.path.join(BASE_DIR ,'templates')
+
+#File path for static media files
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
+#This also refers to where the static files are stored
+STATICFILES_DIRS = [STATIC_DIR,]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
@@ -52,8 +59,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'tango_with_django_project.urls'
 
-#This joins the directory path to templates so that the templates folder can be accessed in any computer not just this one
-TEMPLATE_DIR = os.path.join(BASE_DIR ,'templates')
 
 TEMPLATES = [
     {
@@ -121,6 +126,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+#This is how we can access our static files in local host http://127.0.0.1:8000/static/
 STATIC_URL = '/static/'
 
 
