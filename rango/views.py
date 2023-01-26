@@ -11,10 +11,12 @@ def index(request):
     #Then outputs the top 5 only
     #Placing this variable in our context deictionary will alow it to be passed by the template engine
     category_list= Category.objects.order_by('-likes')[:5]
+    pages_list = Page.objects.order_by('-views')[:5]
 
     context_dict = {}
     context_dict['boldmessage'] = 'Crunchy, creamy, cookie, candy, cupcake!'
     context_dict['categories'] = category_list
+    context_dict['pages'] = pages_list
 
 
     #Returns a rendered response to send to the client
