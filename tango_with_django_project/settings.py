@@ -37,6 +37,9 @@ MEDIA_URL = '/media/'
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '93)ef70_sqcr3=-6-s46ff)_(*iaud5w5t)x50k4f(bd07k*t$'
 
+#Login URL to redirect users that are not logged in to login page
+LOGIN_URL = 'rango:login'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 

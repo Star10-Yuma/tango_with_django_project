@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib import admin
 from django.template.defaultfilters import slugify
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Category(models.Model):
@@ -38,3 +39,15 @@ class Page(models.Model):
 
 class PageAdmin(admin.ModelAdmin):
     list_display = ('title', 'category', 'url')
+
+
+class UserProfile(models.Model):
+    # this links the userprofile to a user model instance
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+
+    #The additional attributes we want to include in the pre-existing django user model
+    website = models.URLField(blank=True)
+    picture = models.ImageField(upload_to='profile_images', blank=True)
+
+    def __str__(self):
+        return self.user.username
