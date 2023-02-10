@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19272a9d-053f-47bf-9ab3-aec52eea9e10" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../populate_rango.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rango.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/0002_auto_20230123_1724.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/0003_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/0004_auto_20230202_1349.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatetags/rango_template_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/rango.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tango_with_django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tango_with_django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tango_with_django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tango_with_django_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/add_category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/add_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/rango/restricted.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LYLuVvuADqyGuTFW168TRUbAoA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Workspace/twd_2/rango",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19272a9d-053f-47bf-9ab3-aec52eea9e10" name="Changes" comment="" />
+      <created>1676043291552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676043291552</updated>
+      <workItem from="1676043292783" duration="242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

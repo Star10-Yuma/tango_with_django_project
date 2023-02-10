@@ -15,30 +15,12 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-#This joins the directory path to templates so that the templates folder can be accessed in any computer not just this one
-TEMPLATE_DIR = os.path.join(BASE_DIR ,'templates')
-
-#File path for static media files
-STATIC_DIR = os.path.join(BASE_DIR, 'static')
-#This also refers to where the static files are stored
-STATICFILES_DIRS = [STATIC_DIR,]
-
-#file path to store media files and obtain them
-MEDIA_DIR = os.path.join(BASE_DIR, 'media')
-
-#This tells django where to look for media files uploaded by users
-#And what the URL should be e.g. https://localhost:8000/media/ user media file
-MEDIA_ROOT = MEDIA_DIR
-MEDIA_URL = '/media/'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '93)ef70_sqcr3=-6-s46ff)_(*iaud5w5t)x50k4f(bd07k*t$'
-
-#Login URL to redirect users that are not logged in to login page
-LOGIN_URL = 'rango:login'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -70,11 +52,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'tango_with_django_project.urls'
 
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_DIR,],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -82,7 +63,6 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'django.template.context_processors.media',
             ],
         },
     },
@@ -138,7 +118,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-#This is how we can access our static files in local host http://127.0.0.1:8000/static/
 STATIC_URL = '/static/'
-
-
